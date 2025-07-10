@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>候鸟迁徙的意义</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #1f2937;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .image {
+            width: 100%;
+            height: auto;
+            margin: 2rem 0;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .image:hover {
+            transform: scale(1.02);
+        }
+        .card {
+            background: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .section-title {
+            background: -webkit-linear-gradient(45deg, #3b82f6, #22c55e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-4xl font-extrabold mb-6 text-center section-title">候鸟迁徙的意义</h1>
+        <img src="C:\Users\ZhuanZ（无密码）\Desktop\BBMS\colorhub.jpg" alt="候鸟迁徙" class="image rounded-2xl">
+        
+        <div class="card">
+            <p class="text-lg text-gray-800 mb-4 leading-relaxed">候鸟迁徙是一种季节性的、长距离的移动行为，对于维持生态平衡、传播种子、控制害虫等方面都有着重要作用。</p>
+        </div>
+
+        <div class="card">
+            <h2 class="text-2xl font-bold mb-3 section-title">维持生态平衡</h2>
+            <p class="text-gray-700 mb-0 leading-relaxed">候鸟在不同地区之间迁徙，促进了能量和物质的流动，有助于维持生态系统的平衡。</p>
+        </div>
+
+        <div class="card">
+            <h2 class="text-2xl font-bold mb-3 section-title">传播种子</h2>
+            <p class="text-gray-700 mb-0 leading-relaxed">候鸟在觅食过程中会摄入植物种子，随后在迁徙途中将种子传播到其他地区，促进了植物的繁衍和分布。</p>
+        </div>
+
+        <div class="card">
+            <h2 class="text-2xl font-bold mb-3 section-title">控制害虫</h2>
+            <p class="text-gray-700 mb-0 leading-relaxed">许多候鸟以昆虫为食，在迁徙过程中可以帮助控制害虫的数量，保护农作物和生态环境。</p>
+        </div>
+    </div>
+</body>
+</html>
